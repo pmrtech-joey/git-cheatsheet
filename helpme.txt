@@ -1,0 +1,49 @@
+Here are some of the most popular and essential Git commands:
+
+
+git clone <repository-url>
+Creates a complete local copy of a remote repository (including all history and branches).
+
+git init
+Initializes a new Git repository in the current directory.
+
+git status
+Shows the current state of your working directory and staging area (which files are modified, staged, or untracked).
+
+git add <file> (or git add . / git add -A) 
+Stages changes (adds them to the index) so they will be included in the next commit.
+
+git commit -m "message"
+Records the staged changes as a new commit in the local repository with a descriptive message.
+
+git pull
+Fetches the latest changes from the remote repository and automatically merges them into your current branch.
+
+git push (often git push origin <branch>) 
+Uploads your local commits to the remote repository.
+
+git branch
+Lists all local branches (with * showing the current one); can also create or delete branches with options.
+
+git checkout <branch> (or modern git switch <branch>) 
+Switches your working directory to another existing branch.
+
+git checkout -b <new-branch> (or git switch -c <new-branch>) 
+Creates a new branch and immediately switches to it.
+
+git merge <branch>
+Merges the changes from the specified branch into your current branch.
+
+git log
+Displays the commit history of the current branch (who, when, and what was changed).
+
+git diff
+Shows the differences between your working directory and the staging area (or between commits/branches).
+
+git fetch
+Downloads the latest commits, branches, and tags from the remote repository without merging them.
+
+git stash
+Temporarily saves your uncommitted changes so you can switch branches or pull cleanly, then re-apply them later.
+
+These 15 commands cover ~90% of what most developers use daily. Mastering them will handle most common workflows like cloning projects, making changes, collaborating, and syncing with remotes.
